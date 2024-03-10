@@ -1,41 +1,36 @@
-## Simple Calculator in JavaScript
+## Tic Tac Toe in JavaScript
 
-This project implements a basic calculator using HTML, CSS, and JavaScript. It provides functionalities for performing arithmetic operations (+, -, *, /) and displaying the results on a user-friendly interface.
+This project implements a classic game of Tic Tac Toe using HTML, CSS, and JavaScript. It allows players to choose the grid size (greater than 1) and provides a visual interface for playing the game.
 
 ### File Structure:
 
-* **index.html:** Defines the structure of the calculator webpage, including the input field, buttons, and container elements.
-* **style.css:** Provides visual styling for the calculator's elements, such as button layout, font size, and background colors.
-* **script.js:** Contains the JavaScript code responsible for handling user interactions with the calculator buttons, processing calculations, and updating the display with results.
+* **index.html:** Defines the structure of the Tic Tac Toe game board, including cells, player information displays, and a prompt for choosing the grid size.
+* **style.css:** Provides visual styling for the game board elements, such as cell layout, font size, background colors, and player indicator styles.
+* **script.js:** Contains the JavaScript code responsible for handling user interactions, creating the game board based on user input, implementing game logic (turn tracking, win conditions), and updating the board display.
 
-### Running the Calculator:
+### Running the Game:
 
 1. **Download:** Clone or download the repository containing the `index.html`, `style.css`, and `script.js` files.
 2. **Open:** Open the `index.html` file in a web browser (e.g., Chrome, Firefox, Edge).
 
-### Using the Calculator:
+### Gameplay:
 
-* Click on the number buttons (0-9) to enter numbers.
-* Click on the operator buttons (+, -, *, /) to perform calculations.
-* The results will be displayed in the input field.
-* Use the "C" (Clear) button to erase the current input.
+* Enter a number greater than 1 in the prompt to choose the desired grid size.
+* Click on an empty cell to place your mark (X or O).
+* The game will alternate turns between players.
+* The game will automatically detect a win or a tie based on the game logic implemented in JavaScript.
 
 ### Functionality:
 
-* Supports basic arithmetic operations (addition, subtraction, multiplication, division).
-* Displays the current calculation in progress in the input field.
-* Provides a clear button to reset the input.
+* User-defined grid size (greater than 1).
+* Automatic board creation based on user input.
+* Turn tracking for players (X and O).
+* Win condition detection (horizontal, vertical, diagonal).
+* Tie detection (all cells filled without a winner).
 
-### Customization:
 
-This is a basic implementation. You can extend its capabilities by adding features such as:
-
-* More mathematical functions (e.g., exponential, square root, trigonometric functions)
-* Memory functions (store, recall, clear)
-* Decimal point handling for more precise calculations
-* Error handling (e.g., division by zero)
-* User interface enhancements (e.g., button grid layout, color themes)
 
 ### Additional Notes:
 
-* Feel free to modify the code in the `script.js` file to customize the calculator's behavior.
+* Feel free to modify the code in the `script.js` file to customize the game logic and behavior.
+
